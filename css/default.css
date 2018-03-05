@@ -9,7 +9,6 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #333333;
 		font-family: 'Varela', sans-serif;
 		font-size: 11pt;
 		font-weight: 300;
@@ -71,45 +70,18 @@
 		width: 1000px;
 	}
 	
+	.container1
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+		background: #F5F5DC
+	}
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
 
-	.image
-	{
-		display: inline-block;
-	}
 	
-	.image img
-	{
-		display: block;
-		width: 100%;
-	}
-	
-	.image-full
-	{
-		display: block;
-		width: 100%;
-		margin: 0 0 2em 0;
-	}
-	
-	.image-left
-	{
-		float: left;
-		margin: 0 2em 2em 0;
-	}
-	
-	.image-centered
-	{
-		display: block;
-		margin: 0 0 2em 0;
-	}
-	
-	.image-centered img
-	{
-		margin: 0 auto;
-		width: auto;
-	}
 
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -611,7 +583,6 @@
 
 			.thumbnails a img {
 				display: block;
-				width: 100%;
 				border-top-left-radius: 4px;
 				border-top-right-radius: 4px;
 			}
