@@ -1,0 +1,196 @@
+#wrapper{
+	max-width: 68em;
+	width:100%;
+	margin: 0 auto;
+	padding: 0 2em;
+	opacity: 1;
+	filter: none;
+	-moz-transition:opacity 1s ease, -webkit-filter 1s ease;
+	-webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+	transition: opacity 1s ease, filter 1s ease;
+}
+body.is-loading #wrapper{
+	opacity: 0;
+	-moz-filter: blur(1px);
+	-webkit-filter:blur(1px);
+	-ms-filter:blur(1px);
+	filter: blur(1px);
+}
+body.is-covered#wrapper{
+	-moz-filter:blur(3px);
+	-webkit-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+}
+#header-wrapper
+{
+	background: #af1641;
+}
+#header
+{
+	position: relative;
+	padding: 3em 0em;
+}
+#logo
+{
+	position: absolute;
+	top: 1em;
+	left: 0;
+}
+#logo h1
+{
+	color: #fff;
+}
+#logo a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#menu
+{
+	position: absolute;
+	top: 2em;
+	right: 0;
+}
+#menu ul
+{
+	display: inline-block;
+}
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+#menu li a,#menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: #fff;
+}
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: #dc572e;
+	border-radius: 7px;
+	color: #FFF;
+}
+#menu .current_page_item a
+{
+	background: #af1641;
+	color: #fff;
+}
+#menu.icon
+{
+}
+#banner
+{
+	overflow: hidden;
+	padding: 7em 0em 5em 0em;
+	background:#af1641;
+	background-size:cover;
+	text-align: center;
+	color: rgba(255,255,255,.8);
+}
+#banner.title
+{
+	margin-bottom: 1em;
+	text-transform: uppercase !important;
+}
+#banner.title.h2
+{
+	color: #fff;
+}
+#banner.title .byline
+{
+	margin-top: 3em;
+	background: #dc572e !important;
+}
+#page
+{
+	padding: 5em 0em;
+	text-align: center;
+}
+.container
+{
+	overflow: hidden;
+	margin:0em auto;
+	width: 1000px;
+}
+.title
+{
+	margin-bottom: 3em;
+}
+
+#tuos h1
+{
+	text-align: center;
+	font-size: 48px;
+}
+
+#tuos h2
+{
+	font-family:"TSCu_Comic";
+	font-size: 36px
+}
+#tuos p
+{
+	border-left: 5px solid red;
+	background-color: lightgrey;
+}
+#bcps h2
+{
+	font-family: "TSCu_Comic";
+	font-size: 36px;
+}
+
+#bcps p
+{
+	border-left: 5px solid red;
+	background-color: lightgrey
+}
+
+#bcsp h2
+{
+	font-family: "TSCu_Comic";
+	font-size: 36px;
+}
+
+#bcsp p
+{
+	text-align: justify;
+}
+#dosisd {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#dosisd td, #dosisd th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#dosisd tr:nth-child(even){background-color: white;}
+
+#dosisd tr:hover {background-color: lightblue;}
+
+#dosisd {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+#d h2 {
+	font-family:"TSCu_Comic";
+	font-size: 36px
+}
+
+#d p {
+	font-size: 24px
+}
