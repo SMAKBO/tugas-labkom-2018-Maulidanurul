@@ -13,11 +13,11 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li class="active"><a href="#" accesskey="2" title="">Sevoflurane</a></li>
-				<li><a href="#" accesskey="3">About Us</a></li>
-				<li><a href="#" accesskey="4">Contact Us</a></li>
-				<li><a href="#" accesskey="5">The External Link</a></li>
+				<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+				<li class="active"><a href="first.html" accesskey="2" title="">Sevoflurane</a></li>
+				<li><a href="aboutus.html" accesskey="3">About Us</a></li>
+				<li><a href="contact.html" accesskey="4">Contact Us</a></li>
+				<li><a href="link.html" accesskey="5">The External Link</a></li>
 			</ul>
 		</div>
 	</div>
@@ -33,20 +33,210 @@
 <div id="page" class="container">
     
 	<div class="title">
-		<h1>Damage For Environment(S)</h1>
+		<h1 style="font-size: 45px">Damage For Environment(S)</h1>
 	</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
 
-	<h2><strong>What Damage For Environment of Sevoflurane?</strong></h2>
+* {
+  box-sizing: border-box;
+}
 
-     <p> It should be noted that the anesthesia provider is not solely responsible for the atmospheric contamination in the operating room. Exposure measurements taken in operating rooms during the clinical administration of inhaled anesthetics indicate that waste gases can escape into the room from various components of the anesthesia delivery system. Potential leak sources include tank valves, high- and low-pressure machine connections, and any connection along the breathing circuit, as well as defects in rubber and plastic tubing, hoses, reservoir bags, and ventilator bellows. Also, an improperly functioning (or absent) scavenging system will lead to operating room contamination.</p>
+img {
+  vertical-align: middle;
+}
 
-		<h3><strong>PREVENTION</strong></h3>
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
 
-			<p>Wherever N2O or a volatile anesthetic is administered, a continuous-flow fresh air ventilation system or scavenger system must be used to prevent waste gas accumulation. It is the responsibility of each institution to organize and document a program of maintenance and checking of all anesthetic equipment, including the scavenging system. Additionally, eliminating the use of an anesthesia technique that could elevate contamination levels in the operating room is another effective means to prevent WAGs. Employing the following anesthetic practices will minimize contamination of the environment: reducing gas flow during mask inductions; turning off excessive gas flows and vaporizers following an anesthetic; careful filling of vaporizers; judicious checking of all connections along the anesthesia circuit and at the machine; and using properly fitting face masks and inflated endotracheal tube and laryngeal mask airway cuffs.</p>
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/gambargambar.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/gambargambar1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/gambargambar2.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/gambargambar3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/gambargambar4.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/gambargambar5.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/gambargambar.jpg" style="width:100%" onclick="currentSlide(1)" alt="Damage For Environment of Sevoflurane">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gambargambar1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Damage For Environment of Sevoflurane">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gambargambar2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Damage For Environment of Sevoflurane">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gambargambar3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Damage For Environment of Sevoflurane">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/gambargambar4.jpg" style="width:100%" onclick="currentSlide(5)" alt="Damage For Environment of Sevoflurane">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/gambargambar5.jpg" style="width:100%" onclick="currentSlide(6)" alt="Damage For Environment of Sevoflurane">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	<h1 style="font-size: 30px"><strong>What Damage For Environment of Sevoflurane?</strong></h1>
+     <p style="font-family:courier;"> It should be noted that the anesthesia provider is not solely responsible for the atmospheric contamination in the operating room. Exposure measurements taken in operating rooms during the clinical administration of inhaled anesthetics indicate that waste gases can escape into the room from various components of the anesthesia delivery system. Potential leak sources include tank valves, high- and low-pressure machine connections, and any connection along the breathing circuit, as well as defects in rubber and plastic tubing, hoses, reservoir bags, and ventilator bellows. Also, an improperly functioning (or absent) scavenging system will lead to operating room contamination.</p>
+
+		<h2 style="font-size: 30px"><strong>PREVENTION</strong></h2>
+
+			<p style="font-family:courier;">Wherever N2O or a volatile anesthetic is administered, a continuous-flow fresh air ventilation system or scavenger system must be used to prevent waste gas accumulation. It is the responsibility of each institution to organize and document a program of maintenance and checking of all anesthetic equipment, including the scavenging system. Additionally, eliminating the use of an anesthesia technique that could elevate contamination levels in the operating room is another effective means to prevent WAGs. Employing the following anesthetic practices will minimize contamination of the environment: reducing gas flow during mask inductions; turning off excessive gas flows and vaporizers following an anesthetic; careful filling of vaporizers; judicious checking of all connections along the anesthesia circuit and at the machine; and using properly fitting face masks and inflated endotracheal tube and laryngeal mask airway cuffs.</p>
 
 
-		<h3><strong>CONCLUSIONS</strong></h3>
-			<p>Over the years there have been significant improvements in the control of environmental contamination by anesthetic gases. These have been accomplished through the use and improved design of scavenging systems, installation of more effective general ventilation systems, and an increased attention to equipment maintenance and leak detection, as well as careful anesthetic practice. However, the environmental impact of these anesthetic gases remains a concern.The implications of inhaled anesthetics currently used during surgery warrant further study for their overall contribution to global climate change and the environment. Release of anesthetic gases into the atmosphere presents a relatively small problem in comparison with other sources of ozone-depleting chemicals and greenhouse gases. However, anesthesia providers should be prudent by minimizing unnecessary atmospheric pollution. This goal can be accomplished by reexamining the relative impact of their practice patterns and employing techniques that would lessen the hazards. In addition, any facility that utilizes anesthetic gases has a responsibility to put into effect a maintenance program that routinely checks all anesthesia equipment, including the scavenging system. Vigilance, education, and the implementation of these strategies can optimize the healthy environments of an operating room and the atmosphere.</p>
+		<h2 style="font-size: 30px"><strong>CONCLUSIONS</strong></h2>
+			<p style="font-family:courier;">Over the years there have been significant improvements in the control of environmental contamination by anesthetic gases. These have been accomplished through the use and improved design of scavenging systems, installation of more effective general ventilation systems, and an increased attention to equipment maintenance and leak detection, as well as careful anesthetic practice. However, the environmental impact of these anesthetic gases remains a concern.The implications of inhaled anesthetics currently used during surgery warrant further study for their overall contribution to global climate change and the environment. Release of anesthetic gases into the atmosphere presents a relatively small problem in comparison with other sources of ozone-depleting chemicals and greenhouse gases. However, anesthesia providers should be prudent by minimizing unnecessary atmospheric pollution. This goal can be accomplished by reexamining the relative impact of their practice patterns and employing techniques that would lessen the hazards. In addition, any facility that utilizes anesthetic gases has a responsibility to put into effect a maintenance program that routinely checks all anesthesia equipment, including the scavenging system. Vigilance, education, and the implementation of these strategies can optimize the healthy environments of an operating room and the atmosphere.</p>
 
    
 
