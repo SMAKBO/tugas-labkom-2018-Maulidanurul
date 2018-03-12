@@ -104,7 +104,7 @@
 
 	.tombol 
 	{
-		float: right;
+		margin: 10%;
 	}
 	.parallax{
 	background-image: url(img/bg.jpg);
