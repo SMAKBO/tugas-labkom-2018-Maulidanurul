@@ -1,3 +1,4 @@
+
 #wrapper{
 	max-width: 68em;
 	width:100%;
@@ -138,10 +139,23 @@ body.is-covered#wrapper{
 	margin:0em auto;
 	width: 1000px;
 }
+
+/* title */
 .title
 {
 	margin-bottom: 3em;
 }
+.title h2
+	{
+		text-transform: uppercase;
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
 
 #tuos h1
 {
@@ -173,19 +187,6 @@ body.is-covered#wrapper{
 	background-color: lightgrey;
 }
 
-#bcsp h2
-{
-	font-family: "TSCu_Comic";
-	font-size: 36px;
-}
-
-#bcsp p
-{
-	text-align: justify;
-	border-style: solid;
-	border-width: 5px;
-	background-color: lightgrey;
-}
 #dosisd {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
