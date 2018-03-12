@@ -69,121 +69,42 @@
 		margin: 0em auto;
 		width: 1000px;
 	}
-	
-	.container1
-	{
-		overflow: hidden;
-		margin: 0em auto;
-		width: 1000px;
-		background: #F5F5DC
-	}
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
 
-	
-
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
-
-	ul.staff
+	.teks h1
 	{
-		margin-bottom: 3em;
-	}
-
-	ul.staff li
-	{
-		display: inline-block;
-	}
-	
-	ul.staff li img
-	{
-		width: 80%;
-		border-radius: 50%;
-	}
-
-
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
-
-	ul.contact
-	{
-		margin: 0;
-		padding: 2em 0em 0em 0em;
-		list-style: none;
-	}
-	
-	ul.contact li
-	{
-		display: inline-block;
-		padding: 0em 0.30em;
-		font-size: 1em;
-	}
-	
-	ul.contact li span
-	{
-		display: none;
-		margin: 0;
-		padding: 0;
-	}
-	
-	ul.contact li a
-	{
-		color: #FFF;
-	}
-	
-	ul.contact li a:before
-	{
-		display: inline-block;
-		background: #3f3f3f;
-		width: 40px;
-		height: 40px;
-		line-height: 40px;
-		border-radius: 20px;
 		text-align: center;
-		color: #FFFFFF;
+		font-size: 50px
 	}
-	
-	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
-	ul.contact li a.icon-facebook:before { background: #39599F; }
-	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
-	ul.contact li a.icon-tumblr:before { background: #31516A; }
-	ul.contact li a.icon-rss:before { background: #F2600B; }
-
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
-
-	.button
+	.font1
 	{
-		display: inline-block;
-		padding: 0em 3em;
-		background: #af1641;
-		border-radius: 7px;
-		letter-spacing: 0.20em;
-		line-height: 4em;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: 400;
-		font-size: 1em;
-		color: #FFF;
+		font-family: Century Gothic
 	}
-	
-	.button:before
+
+	.foto1
 	{
-		display: inline-block;
-		background: #FFC31F;
-		margin-right: 1em;
-		width: 40px;
-		height: 40px;
-		line-height: 40px;
-		border-radius: 20px;
-		text-align: center;
-		color: #272925;
+		height: 75%;
+		width: 65%;
+		float: left;
 	}
-	
+
+	.foto2
+	{
+		height: 60%;
+		width: 20%;
+		margin-left: 7%;
+		
+	}
+
+	.foto3
+	{
+		height: 87%;
+		width: 70%;
+		float: right;
+	}
+	.tombol
+	{
+		left: 10%
+	}
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
@@ -199,85 +120,12 @@
 		font-size: 2.7em;
 	}
 	
+
 	.title .byline
 	{
 		font-size: 1.7em;
 		color: #6F6F6F;
 	}
-		
-/*********************************************************************************/
-/* 4-column                                                                      */
-/*********************************************************************************/
-
-	.box1,
-	.box2,
-	.box3,
-	.box4
-	{
-		width: 235px;
-	}
-	
-	.box1,
-	.box2,
-	.box3,
-	{
-		float: left;
-		margin-right: 20px;
-	}
-	
-	.box4
-	{
-		float: right;
-	}
-	
-/*********************************************************************************/
-/* 3-column                                                                      */
-/*********************************************************************************/
-
-	.boxA,
-	.boxB,
-	.boxC
-	{
-		width: 320px;
-	}
-
-	.boxA,
-	.boxB
-	{
-		float: left;
-		margin-right: 20px;
-	}
-	
-	.boxC
-	{
-		float: right;
-	}
-
-/*********************************************************************************/
-/* 2-column                                                                      */
-/*********************************************************************************/
-
-	.tbox1,
-	.tbox2
-	{
-		width: 575px;
-	}
-	
-	.tbox1
-	{
-		float: left;
-	}
-
-	.tbox2
-	{
-		float: right;
-	}
-	
-	#wrapper
-	{
-		background: #FFF;
-	}
-
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -466,6 +314,7 @@
 		text-decoration: none;
 		color: rgba(255,255,255,0.8);
 	}
+
 
 /*********************************************************************************/
 /* Featured                                                                      */
