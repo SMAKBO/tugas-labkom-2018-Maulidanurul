@@ -180,3 +180,23 @@ body.is-covered#wrapper{
 	font-size: 36px;
 	text-align: center;
 }
+
+#tabel{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabel td{
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabel 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
