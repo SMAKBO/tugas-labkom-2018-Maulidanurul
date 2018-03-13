@@ -174,3 +174,9 @@ body.is-covered#wrapper{
 	text-decoration: none;
 	color: rgba(255,255,255,0.8);
 }
+
+#tuos
+{
+	font-size: 36px;
+	text-align: center;
+}
