@@ -280,3 +280,37 @@ body.is-covered#wrapper{
 	text-decoration: none;
 	color: rgba(255,255,255,0.8);
 }
+
+#kepiting h1
+{
+	text-align: center;
+	font-size: 48px;
+	font-family:"Anaktoria";
+}
+
+#kepiting h2
+{
+	font-size: 24px;
+	text-align: left;
+	font-family:"Suggested 3D Filled";
+}
+
+#kepiting p
+{
+	border-bottom: 1px solid
+	border-width: 5px;
+	background-color: lightgrey;
+}
+
+#dipiting h2
+{
+	font-size: 24px;
+	font-family:"Suggested 3D Filled";
+}
+
+#dipiting p
+{
+	order-bottom: 1px solid
+	border-width: 5px;
+	background-color: lightgrey;
+}
