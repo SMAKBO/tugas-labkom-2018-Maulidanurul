@@ -83,29 +83,33 @@
 		text-align: center;
 		font-size: 50px
 	}
+
+	.teks a {
+		font-size: 20px
+	}
 	.font1
 	{
-		font-family: Century Gothic
-	}
-
-	.foto1
-	{
-		height: 75%;
-		width: 65%;
-		text-align: left;
+		font-family: Century Gothic;
+		background: #ffb3cc
 	}
 
 	.foto2
 	{
-		height: 75%;
-		width: 65%;
 		float: right;
+		padding-bottom: 8%
 	}
 
-	.tombol 
+	.tombol1
 	{
-		margin: 10%;
+		float: right;
+		margin: 100px;
 	}
+
+	.tombol
+	{
+		margin: 100px;
+	}
+
 	.parallax{
 	background-image: url(img/bg.jpg);
     height: 100%; 
@@ -114,34 +118,33 @@
     background-repeat: no-repeat;
     background-size: cover;
 	}
-}
-.open {
-	position: absolute;
-	top: 50%;
-	width:100%;
-	text-align: center;
-	color: #000;
-}
-.caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #0
-}
-.caption span border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
+		
+	.open {
+		position: absolute;
+		top: 50%;
+		width:100%;
+		text-align: center;
+		color: #000;
+	}
+	.caption {
+    	position: absolute;
+    	left: 0;
+    	top: 50%;
+    	width: 100%;
+    	text-align: center;
+    	color: #0
+	}
+	.caption span border {
+    	background-color: #111;
+    	color: #fff;
+    	padding: 18px;
+    	font-size: 25px;
+    	letter-spacing: 10px;
+	}
 
-	
+	.programmer {
+		background: #ffe6ee
+	}
 
 /*********************************************************************************/
 /* List Styles                                                                   */
