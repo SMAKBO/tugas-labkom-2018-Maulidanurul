@@ -93,6 +93,12 @@
 		background: #ffb3cc
 	}
 
+	.font2
+	{
+		font-family: Century Gothic;
+		background: #ffbb99
+	}
+
 	.foto2
 	{
 		float: right;
@@ -143,7 +149,11 @@
 	}
 
 	.programmer {
-		background: #ffe6ee
+		background: #ffe6ff
+	}
+
+	.designer {
+		background: #ffddcc;
 	}
 
 /*********************************************************************************/
