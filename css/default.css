@@ -99,6 +99,18 @@
 		background: #ffbb99
 	}
 
+	.font3
+	{
+		font-family: Century Gothic;
+		background: #ffffb3
+	}
+
+	.font4
+	{
+		font-family: Century Gothic;
+		background: #ccff99
+	}
+
 	.foto2
 	{
 		float: right;
@@ -156,6 +168,13 @@
 		background: #ffddcc;
 	}
 
+	.writer {
+		background: #ffffcc;
+	}
+
+	.searcher {
+		background: #f2ffe6
+	}
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
