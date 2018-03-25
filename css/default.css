@@ -84,13 +84,16 @@
 		font-size: 50px
 	}
 
+	.teks h3 {
+		text-align: center;
+	}
+
 	.teks a {
 		font-size: 20px
 	}
-	
-	.font
-	{
-		font-family: Century Gothic;
+
+	.teks p {
+		text-align: center;
 	}
 
 	.font1
@@ -180,6 +183,16 @@
 
 	.searcher {
 		background: #f2ffe6;
+	}
+
+	.backlink {
+		background: #f2e6ff
+	}
+
+	.fontlink {
+		font-family: Century Gothic;
+		background: #eeccff;
+		text-align: center;
 	}
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -454,6 +467,7 @@
 		overflow: hidden;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
+		background: #969393;
 	}
 	
 	#copyright p
