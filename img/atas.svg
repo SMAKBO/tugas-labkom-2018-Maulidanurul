@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><svg height="74.000000mm" version="1.0" viewBox="0 0 397 280" width="105.000000mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round">
+    <polyline fill="none" points="51.00,53.00 142.00,100.00 221.00,50.00 221.00,50.00 221.00,50.00 " stroke="#000000" stroke-width="1.0"/>
+    <polyline fill="none" points="143.00,100.00 143.00,139.00 143.00,139.00 142.00,139.00 " stroke="#000000" stroke-width="1.0"/>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="12" x="138.00" y="156.50">O</text>
+    <polyline fill="none" points="139.00,165.00 107.00,188.00 107.00,188.00 107.00,188.00 " stroke="#000000" stroke-width="1.0"/>
+    <polyline fill="none" points="108.00,187.00 108.00,224.00 108.00,224.00 108.00,225.00 " stroke="#000000" stroke-width="1.0"/>
+    <polyline fill="none" points="108.00,43.00 72.00,107.00 " stroke="#000000" stroke-width="1.0"/>
+    <polyline fill="none" points="167.00,42.00 201.00,101.00 " stroke="#000000" stroke-width="1.0"/>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="38.00" y="48.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="108.00" y="41.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="66.00" y="121.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="161.00" y="37.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="203.00" y="113.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="224.00" y="48.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="104.00" y="239.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="83" x="264.00" y="234.50">sevoflurane.</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="10" crop_svg="0" orientation="landscape" replace_minus="0" type="A7" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="helvetica" font_size="12" line_color="#000" line_width="1px" paper_crop_margin="10" paper_crop_svg="0" paper_orientation="portrait" paper_type="A4">
+      <bond double-ratio="0.75" length="0.7cm" wedge-width="5px" width="6px"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <polyline line_color="#000" width="1.0">
+      <point x="1.348cm" y="1.401cm"/>
+      <point x="3.753cm" y="2.643cm"/>
+      <point x="5.840cm" y="1.321cm"/>
+      <point x="5.840cm" y="1.321cm"/>
+      <point x="5.840cm" y="1.321cm"/>
+    </polyline>
+    <polyline line_color="#000" width="1.0">
+      <point x="3.779cm" y="2.643cm"/>
+      <point x="3.779cm" y="3.673cm"/>
+      <point x="3.779cm" y="3.673cm"/>
+      <point x="3.753cm" y="3.673cm"/>
+    </polyline>
+    <text id="text58119"><point x="3.779cm" y="4.017cm"/><ftext>O</ftext></text>
+    <polyline line_color="#000" width="1.0">
+      <point x="3.673cm" y="4.361cm"/>
+      <point x="2.828cm" y="4.968cm"/>
+      <point x="2.828cm" y="4.968cm"/>
+      <point x="2.828cm" y="4.968cm"/>
+    </polyline>
+    <polyline line_color="#000" width="1.0">
+      <point x="2.854cm" y="4.942cm"/>
+      <point x="2.854cm" y="5.920cm"/>
+      <point x="2.854cm" y="5.920cm"/>
+      <point x="2.854cm" y="5.946cm"/>
+    </polyline>
+    <polyline line_color="#000" width="1.0">
+      <point x="2.854cm" y="1.136cm"/>
+      <point x="1.903cm" y="2.828cm"/>
+    </polyline>
+    <polyline line_color="#000" width="1.0">
+      <point x="4.413cm" y="1.110cm"/>
+      <point x="5.312cm" y="2.669cm"/>
+    </polyline>
+    <text id="text25644"><point x="1.110cm" y="1.163cm"/><ftext>F</ftext></text>
+    <text id="text17729"><point x="2.960cm" y="0.978cm"/><ftext>F</ftext></text>
+    <text id="text85054"><point x="1.850cm" y="3.092cm"/><ftext>F</ftext></text>
+    <text id="text2247"><point x="4.361cm" y="0.872cm"/><ftext>F</ftext></text>
+    <text id="text88946"><point x="5.470cm" y="2.881cm"/><ftext>F</ftext></text>
+    <text id="text89984"><point x="6.025cm" y="1.163cm"/><ftext>F</ftext></text>
+    <text id="text62067"><point x="2.854cm" y="6.210cm"/><ftext>F</ftext></text>
+    <text id="text26635"><point x="7.056cm" y="6.078cm"/><ftext>sevoflurane.</ftext></text>
+  </cdml>
+</svg>

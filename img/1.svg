@@ -1,0 +1,136 @@
+<?xml version="1.0" ?><svg height="52.000000mm" version="1.0" viewBox="0 0 280 196" width="74.000000mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round">
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="135.30" y="85.00">O</text>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="193.27" x2="193.40" y1="69.46" y2="42.95"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="104.98" x2="131.46" y1="80.61" y2="80.51"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="154.49" x2="180.98" y1="81.12" y2="81.00"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="12" x="89.00" y="85.50">C</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="12" x="188.00" y="85.50">C</text>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="53.49" x2="79.98" y1="81.12" y2="81.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="204.98" x2="231.47" y1="81.11" y2="80.99"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="11" x="238.00" y="86.50">H</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="11" x="41.00" y="85.50">H</text>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="193.20" x2="193.39" y1="119.95" y2="93.47"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="94.13" x2="77.63" y1="63.33" y2="42.62"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="73.66" x2="91.27" y1="115.20" y2="95.41"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="28" x="59.00" y="32.50">CF<tspan baseline-shift="sub" font-size="75%">3</tspan></text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="28" x="61.00" y="134.50">CF<tspan baseline-shift="sub" font-size="75%">3</tspan></text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="10" x="190.00" y="35.50">F</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="11" x="190.00" y="136.50">H</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" textLength="119" x="83.00" y="182.50">SEVOFLURANE</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="10" crop_svg="0" orientation="landscape" replace_minus="0" type="A8" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="helvetica" font_size="12" line_color="#000" line_width="1px" paper_crop_margin="10" paper_crop_svg="0" paper_orientation="portrait" paper_type="A4">
+      <bond double-ratio="0.75" length="0.7cm" wedge-width="5px" width="6px"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule17662" name="">
+      <atom id="atom21730" name="O" pos="center-first" valency="2">
+        <point x="3.753cm" y="2.167cm"/>
+      </atom>
+    </molecule>
+    <molecule id="molecule45911" name="">
+      <atom id="atom86898" name="C" valency="4">
+        <point x="5.108cm" y="1.836cm"/>
+      </atom>
+      <atom id="atom36027" name="C" valency="4">
+        <point x="5.111cm" y="1.135cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom36027" id="bond30075" line_width="1.0" start="atom86898" type="n1"/>
+    </molecule>
+    <molecule id="molecule20351" name="">
+      <atom id="atom8787" name="C" valency="4">
+        <point x="2.774cm" y="2.130cm"/>
+      </atom>
+      <atom id="atom27019" name="C" valency="4">
+        <point x="3.474cm" y="2.128cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom27019" id="bond86061" line_width="1.0" start="atom8787" type="n1"/>
+    </molecule>
+    <molecule id="molecule26285" name="">
+      <atom id="atom66530" name="C" valency="4">
+        <point x="4.083cm" y="2.144cm"/>
+      </atom>
+      <atom id="atom41159" name="C" valency="4">
+        <point x="4.783cm" y="2.141cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom41159" id="bond60873" line_width="1.0" start="atom66530" type="n1"/>
+    </molecule>
+    <text id="text12094"><point x="2.484cm" y="2.141cm"/><ftext>C</ftext></text>
+    <text id="text29157"><point x="5.101cm" y="2.141cm"/><ftext>C</ftext></text>
+    <molecule id="molecule3385" name="">
+      <atom id="atom97599" name="C" valency="4">
+        <point x="1.414cm" y="2.144cm"/>
+      </atom>
+      <atom id="atom88023" name="C" valency="4">
+        <point x="2.114cm" y="2.141cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom88023" id="bond4641" line_width="1.0" start="atom97599" type="n1"/>
+    </molecule>
+    <molecule id="molecule33550" name="">
+      <atom id="atom85301" name="C" valency="4">
+        <point x="5.417cm" y="2.143cm"/>
+      </atom>
+      <atom id="atom18970" name="C" valency="4">
+        <point x="6.117cm" y="2.140cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom18970" id="bond1447" line_width="1.0" start="atom85301" type="n1"/>
+    </molecule>
+    <text id="text46970"><point x="6.395cm" y="2.167cm"/><ftext>H</ftext></text>
+    <text id="text74700"><point x="1.189cm" y="2.141cm"/><ftext>H</ftext></text>
+    <molecule id="molecule47004" name="">
+      <atom id="atom4291" name="C" valency="4">
+        <point x="5.106cm" y="3.170cm"/>
+      </atom>
+      <atom id="atom75634" name="C" valency="4">
+        <point x="5.111cm" y="2.470cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom75634" id="bond82953" line_width="1.0" start="atom4291" type="n1"/>
+    </molecule>
+    <molecule id="molecule80833" name="">
+      <atom id="atom9845" name="C" valency="4">
+        <point x="2.488cm" y="1.674cm"/>
+      </atom>
+      <atom id="atom48891" name="C" valency="4">
+        <point x="2.051cm" y="1.126cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom48891" id="bond3503" line_width="1.0" start="atom9845" type="n1"/>
+    </molecule>
+    <molecule id="molecule94619" name="">
+      <atom id="atom17470" name="C" valency="4">
+        <point x="1.947cm" y="3.044cm"/>
+      </atom>
+      <atom id="atom89803" name="C" valency="4">
+        <point x="2.412cm" y="2.522cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom89803" id="bond21791" line_width="1.0" start="atom17470" type="n1"/>
+    </molecule>
+    <text id="text58985"><point x="1.691cm" y="0.740cm"/><ftext>CF<sub>3</sub></ftext></text>
+    <text id="text6920"><point x="1.744cm" y="3.436cm"/><ftext>CF<sub>3</sub></ftext></text>
+    <text id="text41847"><point x="5.127cm" y="0.819cm"/><ftext>F</ftext></text>
+    <text id="text5599"><point x="5.153cm" y="3.488cm"/><ftext>H</ftext></text>
+    <text id="text61214"><point x="2.299cm" y="4.704cm"/><ftext>SEVOFLURANE</ftext></text>
+  </cdml>
+</svg>
