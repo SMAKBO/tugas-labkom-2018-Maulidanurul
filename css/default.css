@@ -87,6 +87,12 @@
 	.teks a {
 		font-size: 20px
 	}
+	
+	.font
+	{
+		font-family: Century Gothic;
+	}
+
 	.font1
 	{
 		font-family: Century Gothic;
@@ -448,7 +454,7 @@
 		overflow: hidden;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
-		background-color: #969393;
+		background: #969393;
 	}
 	
 	#copyright p
