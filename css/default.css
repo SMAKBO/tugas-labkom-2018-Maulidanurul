@@ -194,6 +194,25 @@
 		background: #eeccff;
 		text-align: center;
 	}
+
+	.kolom {
+		background: #b3d9ff;
+	}
+
+	.kolom th {
+		column-width: 200px;
+		text-align: center;
+	}
+
+	.kolom1 {
+		background: #b3ffcc;
+	}
+
+	.kolom1 th {
+		column-width: 200px;
+		text-align: center;
+	}
+
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
